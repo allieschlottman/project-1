@@ -1,0 +1,215 @@
+p {
+    font-family: "Playfair Display", serif; /* Apply Playfair Display font to all paragraphs */
+}
+body {
+    font-family: playfair-display, serif;
+    font-style: normal;
+    font-weight: 400;
+    background-color: #E7D0B6;
+    margin: 40px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 100vh;
+}
+.grid-item {
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #6A3A2C
+}
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    background-color: #6A3A2C
+
+}
+.nav-links li{
+    display: inline-block;
+}
+.nav-links li a {
+    display: inline-block;
+    color: #E7D0B6;
+    padding: 20px 55px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.nav-links li a:hover{
+    background-color:rgb(40, 24, 14);
+}
+.informational-contrast-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: center;
+}
+.informational-contrast-grid >h2 {
+    grid-column: 1 / -1; 
+    text-align: right;
+    }
+h2 {
+    text-align: left;
+    font-family: "Playfair Display", system-ui;
+}
+.Display ul {
+    list-style-type: none; 
+    padding: 0;
+}
+.Display li {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 1.5rem ;
+}
+.Character-Set h1 {
+    text-align: center; 
+    font-size: 2rem;
+    line-height: 2.5;
+    word-spacing: 30px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+.Character-Set h1 span {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+.Character-Set h1 span:hover {
+    transform: scale(1.8);
+}
+.Display ul {
+    list-style-type: none; 
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, auto);
+    gap: 10px;
+}
+.Display li {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 3rem;
+}
+.Display h2 {
+    text-align: center;
+    position: relative;
+    left: 75%;
+}
+ header h1 {
+    font-size: 6rem;
+    color: rgb(40, 24, 14);
+ }
+ .Display h1.Coffee-Grounds {
+    font-weight: 600;
+    font-style: normal;
+}
+.Display h1.Rich-and-Smooth {
+    font-weight: 500;
+    font-style: italic;
+}
+.Display h1.Espresso {
+    font-weight: 700;
+    font-style: italic;
+}
+.Display h1.Light {
+    font-weight: 300;
+    font-style: normal;
+}
+.Display h1.Medium {
+    font-weight: 500;
+    font-style: normal;
+}
+.Display h1.Medium-Dark {
+    font-weight: 600;
+    font-style: normal;
+}
+.Display h1.Dark {
+    font-weight: 700;
+    font-style: regular;
+}
+.informational-contrast-grid h3 {
+    font-size: 1.5rem;
+}
+.informational-contrast-grid h4 {
+    font-size: 1rem;
+}
+.Display h1 span {
+    display: inline-block;
+    transition: transform 0.3s ease; 
+}
+.Display h1 span:hover {
+    transform: scale(1.5);
+}
+.Line {
+    width: 100%;
+    height: 3px;
+    background-color: rgb(40, 24, 14);
+    position: relative;
+    top: -50px;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+}
+h2 {
+    font-size: 2.25rem;
+    background-color: #E7D0B6;
+    width: 20%;
+}
+.informational-contrast-grid h4 {
+        font-family: "Playfair    Display", serif;
+        font-size: 1.00rem; }
+.Informational_Contrast {
+    width: 25%;
+    text-align: center;
+    position: relative;
+    left: 60%;
+}
+.Body-Copy h2{
+    width: 18%;
+    text-align: center;
+    position: relative;
+    left: 6%;
+}
+.Character-Set h2{
+    width: 27%;
+    text-align: center;
+    position: relative;
+    left: 6%;
+} 
+p, 
+h1, 
+h2, 
+h3, 
+h4, 
+ul, 
+li, 
+nav, 
+body {
+    font-family: "Playfair Display", serif;
+}
+/* Ensure all elements that you mentioned use Playfair Display */
+.Display ul {
+    font-family: "Playfair Display", serif;
+}
+
+.Display li {
+    font-family: "Playfair Display", serif;
+}
+
+.informational-contrast-grid h4 {
+    font-family: "Playfair Display", serif;
+}  
